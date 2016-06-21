@@ -5,20 +5,28 @@ using System.Web.Http;
 
 namespace Datalex.IDMA.Web.Controllers.Api
 {
-    [RoutePrefix("api/health")]
-    public class HealthController : ApiController
+    /// <summary>
+    /// Represents the common controller class
+    /// </summary>
+    [RoutePrefix("api")]
+    public class CommonController : ApiController
     {
         private readonly ICommonService _commonService;
 
         #region Ctor
-        public HealthController(ICommonService commonService)
+        public CommonController(ICommonService commonService)
         {
             this._commonService = commonService;
         }
         #endregion
 
-        [Route("")]
-        public IHttpActionResult Get()
+        /// <summary>
+        /// Health check endpoint
+        /// </summary>
+        /// <returns>HealthCheckModel</returns>
+        [Route("health")]
+        [HttpGet]
+        public IHttpActionResult HealthCheck()
         {
             var result = this._commonService.HealthCheck();
 

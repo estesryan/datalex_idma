@@ -7,6 +7,9 @@ using System.Web.Routing;
 
 namespace Datalex.IDMA.Web
 {
+    /// <summary>
+    /// Represents the route configuration class
+    /// </summary>
     public class RouteConfig
     {
         public static void RegisterRoutes(RouteCollection routes)
