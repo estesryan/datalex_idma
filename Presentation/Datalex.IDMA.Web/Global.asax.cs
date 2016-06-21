@@ -11,6 +11,9 @@ using System.Reflection;
 
 namespace Datalex.IDMA.Web
 {
+    /// <summary>
+    /// Represents the global class
+    /// </summary>
     public class Global : HttpApplication
     {
         public void Application_Start(object sender, EventArgs e)

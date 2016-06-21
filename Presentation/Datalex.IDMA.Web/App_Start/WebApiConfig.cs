@@ -5,6 +5,9 @@ using System.Web.Http;
 
 namespace Datalex.IDMA.Web
 {
+    /// <summary>
+    /// Represents the web api configuration class
+    /// </summary>
     public static class WebApiConfig
     {
         public static void Register(HttpConfiguration config)
