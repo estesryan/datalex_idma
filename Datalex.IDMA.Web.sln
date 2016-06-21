@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datalex.IDMA.Web", "Presentation\Datalex.IDMA.Web\Datalex.IDMA.Web.csproj", "{F6FAC925-E8A4-475F-9551-D8DBB3F0AAAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{E0BEB9A2-A29F-46DA-AD74-401A49EDC3DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datalex.IDMA.Core", "Libraries\Datalex.IDMA.Core\Datalex.IDMA.Core.csproj", "{D85F5E22-EB27-41B9-B1B8-70F247BB7639}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datalex.IDMA.Services", "Libraries\Datalex.IDMA.Services\Datalex.IDMA.Services.csproj", "{3385483B-B765-42F7-856E-C7AD26345E2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datalex.IDMA.Data", "Libraries\Datalex.IDMA.Data\Datalex.IDMA.Data.csproj", "{6D1F9C0E-3B1B-43D4-8969-2A738938C67E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{605D64C1-18BC-4BAC-9F61-35C457876793}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6FAC925-E8A4-475F-9551-D8DBB3F0AAAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6FAC925-E8A4-475F-9551-D8DBB3F0AAAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6FAC925-E8A4-475F-9551-D8DBB3F0AAAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6FAC925-E8A4-475F-9551-D8DBB3F0AAAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D85F5E22-EB27-41B9-B1B8-70F247BB7639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D85F5E22-EB27-41B9-B1B8-70F247BB7639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D85F5E22-EB27-41B9-B1B8-70F247BB7639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D85F5E22-EB27-41B9-B1B8-70F247BB7639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3385483B-B765-42F7-856E-C7AD26345E2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3385483B-B765-42F7-856E-C7AD26345E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3385483B-B765-42F7-856E-C7AD26345E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3385483B-B765-42F7-856E-C7AD26345E2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D1F9C0E-3B1B-43D4-8969-2A738938C67E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D1F9C0E-3B1B-43D4-8969-2A738938C67E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D1F9C0E-3B1B-43D4-8969-2A738938C67E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D1F9C0E-3B1B-43D4-8969-2A738938C67E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F6FAC925-E8A4-475F-9551-D8DBB3F0AAAF} = {605D64C1-18BC-4BAC-9F61-35C457876793}
+		{D85F5E22-EB27-41B9-B1B8-70F247BB7639} = {E0BEB9A2-A29F-46DA-AD74-401A49EDC3DF}
+		{3385483B-B765-42F7-856E-C7AD26345E2A} = {E0BEB9A2-A29F-46DA-AD74-401A49EDC3DF}
+		{6D1F9C0E-3B1B-43D4-8969-2A738938C67E} = {E0BEB9A2-A29F-46DA-AD74-401A49EDC3DF}
+	EndGlobalSection
+EndGlobal
