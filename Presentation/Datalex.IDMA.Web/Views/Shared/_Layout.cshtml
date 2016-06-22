@@ -4,9 +4,24 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - Datalex IDMA</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="~/content/site.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body>
     <div class="container body-content">
+        <ul class="nav nav-tabs">
+            <li class="dropdown active">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle">Datalex - IDMA API <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="~/api/health" target="_blank">Health Check</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">&nbsp;</a></li>
+                </ul>
+            </li>
+        </ul>
         @RenderBody()
         <footer></footer>
     </div>
