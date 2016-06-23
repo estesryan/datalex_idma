@@ -42,6 +42,7 @@ namespace Datalex.IDMA.Core.Domain.Logging
         /// </summary>
         public DateTime CreatedOnUtc { get; set; }
 
+        #region Utilities
         /// <summary>
         /// Gets or sets the log level
         /// </summary>
@@ -56,6 +57,7 @@ namespace Datalex.IDMA.Core.Domain.Logging
                 this.LogLevelId = (int)value;
             }
         }
+        #endregion
     }
 
 }
