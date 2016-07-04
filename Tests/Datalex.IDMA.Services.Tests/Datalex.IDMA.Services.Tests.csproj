@@ -51,6 +51,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Common\CommonServiceTests.cs" />
+    <Compile Include="Common\HealthCheckResult2Tests.cs" />
     <Compile Include="Common\HealthCheckResultTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

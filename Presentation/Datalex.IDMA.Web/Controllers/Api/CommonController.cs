@@ -33,5 +33,19 @@ namespace Datalex.IDMA.Web.Controllers.Api
             var model = Mapper.Map<HealthCheckModel>(result);
             return Ok(model);
         }
+
+        /// <summary>
+        /// Health check endpoint
+        /// </summary>
+        /// <returns>HealthCheckModel</returns>
+        [Route("health/2")]
+        [HttpGet]
+        public IHttpActionResult HealthCheck2()
+        {
+            var result = this._commonService.HealthCheck();
+
+            var model = Mapper.Map<HealthCheckModel>(result);
+            return Ok(model);
+        }
     }
 }
